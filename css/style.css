@@ -1,3 +1,26 @@
-/* body{
-    background-color: red;
-} */
+.titulo-natalia-gomez {
+    color: deeppink;
+    text-align: center;
+}
+.article-natalia-gomez {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 45px;
+}
+.article-natalia-gomez > div:first-child {
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+.article-natalia-gomez > div:last-child {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    text-align: justify;
+}
+#img-natalia-gomez {
+    width: 100%;
+    height: auto
+}
